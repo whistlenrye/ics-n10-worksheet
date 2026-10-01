@@ -1,0 +1,54 @@
+{
+  "doc_type": "shipping.packing_list",
+  "confidence": 0.9,
+  "shipper": {
+    "name": "Harbourline Components Ltd",
+    "address": "18 Port Road, Beilun, Ningbo, China",
+    "country": "China",
+    "tax_id": "91330200MA2FICTION"
+  },
+  "consignee": {
+    "name": "Southbank Industrial Supplies Pty Ltd",
+    "address": "42 Wharf Street, Port Melbourne VIC 3207, Australia",
+    "country": "Australia",
+    "tax_id": null
+  },
+  "invoice_number": "INV-2026-1187",
+  "invoice_date": "12/03/2026",
+  "incoterms": "FOB Ningbo",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Stainless tube fittings, 1/2 inch",
+      "quantity": 1200,
+      "unit": "PCE",
+      "unit_price": null,
+      "amount": null,
+      "hs_code": "7307.29",
+      "country_of_origin": "CN"
+    },
+    {
+      "description": "Brass ball valves, 25mm",
+      "quantity": 300,
+      "unit": "PCE",
+      "unit_price": null,
+      "amount": null,
+      "hs_code": "8481.80",
+      "country_of_origin": "CN"
+    }
+  ],
+  "subtotal": null,
+  "freight": null,
+  "insurance": null,
+  "total": null,
+  "transport": {
+    "packages": 18,
+    "gross_weight_kg": 842.4,
+    "net_weight_kg": 790.0,
+    "containers": [
+      "HLCU1234568"
+    ]
+  },
+  "warnings": [],
+  "model_used": "fixture"
+}
